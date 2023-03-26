@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="48" width="48">
+    <defs>
+        <linearGradient id="a">
+            <stop offset="0" stop-color="#666"/>
+            <stop offset="1" stop-color="#7a7a7a"/>
+        </linearGradient>
+        <linearGradient id="b">
+               <stop offset="0"  stop-color="#de78e5"/>
+            <stop offset=".2" stop-color="#562ab9"/>
+            <stop offset="1"  stop-color="#1b0d39"/>
+        </linearGradient>
+        <linearGradient xlink:href="#c" id="d" gradientUnits="userSpaceOnUse" gradientTransform="translate(-4 -9.49) scale(.11328)" x1="512" y1="397.994" x2="0" y2="125.994"/>
+        <linearGradient id="c">
+              <stop offset=".0" stop-color="#46239a"/>
+            <stop offset=".5" stop-color="#562ab9"/>
+            <stop offset="1"  stop-color="#7e4ae5"/>
+        </linearGradient>
+    </defs>
+    <path style="marker:none" d="M11.748 4.999c-2.227 0-3.981.05-5.42.29-1.44.242-2.614.695-3.476 1.555-.863.861-1.317 2.037-1.559 3.475-.086.512-.142 1.08-.186 1.68-.08 1.081-.107 2.3-.107 3.73v18.54c0 2.222.051 3.974.293 5.413.242 1.441.695 2.617 1.557 3.48.861.865 2.038 1.32 3.48 1.56 1.44.238 3.193.287 5.42.277H36.248c2.227.01 3.983-.038 5.422-.278 1.442-.24 2.617-.694 3.478-1.558.862-.864 1.315-2.04 1.557-3.48S47 36.49 47 34.267V15.73c0-1.43-.027-2.649-.107-3.73a18.605 18.605 0 0 0-.188-1.68c-.242-1.438-.694-2.614-1.557-3.475-.862-.86-2.038-1.313-3.478-1.554-1.43-.24-2.96-.291-5.418-.291H24z" color="#000" overflow="visible" fill="url(#d)"/>
+    <path d="M10.673 5c-1.973.002-3.545.053-4.83.29-1.309.241-2.376.694-3.16 1.554-.784.861-1.197 2.037-1.417 3.475-.078.512-.128 1.08-.168 1.68-.073 1.081-.098 2.3-.098 3.73v18.54c0 2.222.047 3.974.266 5.413.22 1.441.632 2.617 1.415 3.48.784.865 1.854 1.32 3.165 1.56 1.308.238 2.902.287 4.927.277H11V5z" opacity=".3"/>
+</svg>
