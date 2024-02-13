@@ -5,7 +5,7 @@
    version="1.1"
    viewBox="0 0 64 64"
    id="svg9"
-   sodipodi:docname="caja-actions.svg"
+   sodipodi:docname="file-manager.svg"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -36,14 +36,14 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1020"
+     inkscape:window-height="1030"
      id="namedview11"
      showgrid="true"
-     inkscape:zoom="2.0576808"
-     inkscape:cx="-100.84169"
-     inkscape:cy="-18.710385"
+     inkscape:zoom="4.1153616"
+     inkscape:cx="25.878649"
+     inkscape:cy="38.271242"
      inkscape:window-x="0"
-     inkscape:window-y="32"
+     inkscape:window-y="24"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg9"
      inkscape:pagecheckerboard="0">
@@ -79,50 +79,52 @@
     </linearGradient>
     <style
        id="current-color-scheme"
-       type="text/css">.ColorScheme-Text {
-        color:#31363b;
-        stop-color:#31363b;
-      }
-      .ColorScheme-Background {
-        color:#eff0f1;
-        stop-color:#eff0f1;
-      }
-      .ColorScheme-Highlight {
-        color:#3daee9;
-        stop-color:#3daee9;
-      }
-      .ColorScheme-ViewText {
-        color:#31363b;
-        stop-color:#31363b;
-      }
-      .ColorScheme-ViewBackground {
-        color:#fcfcfc;
-        stop-color:#fcfcfc;
-      }
-      .ColorScheme-ViewHover {
-        color:#93cee9;
-        stop-color:#93cee9;
-      }
-      .ColorScheme-ViewFocus{
-        color:#3daee9;
-        stop-color:#3daee9;
-      }
-      .ColorScheme-ButtonText {
-        color:#31363b;
-        stop-color:#31363b;
-      }
-      .ColorScheme-ButtonBackground {
-        color:#eff0f1;
-        stop-color:#eff0f1;
-      }
-      .ColorScheme-ButtonHover {
-        color:#93cee9;
-        stop-color:#93cee9;
-      }
-      .ColorScheme-ButtonFocus{
-        color:#3daee9;
-        stop-color:#3daee9;
-      }</style>
+       type="text/css"><![CDATA[
+.ColorScheme-Text {
+  color:#31363b;
+  stop-color:#31363b;
+}
+.ColorScheme-Background {
+  color:#eff0f1;
+  stop-color:#eff0f1;
+}
+.ColorScheme-Highlight {
+  color:#3daee9;
+  stop-color:#000000;
+}
+.ColorScheme-ViewText {
+  color:#31363b;
+  stop-color:#31363b;
+}
+.ColorScheme-ViewBackground {
+  color:#fcfcfc;
+  stop-color:#fcfcfc;
+}
+.ColorScheme-ViewHover {
+  color:#93cee9;
+  stop-color:#93cee9;
+}
+.ColorScheme-ViewFocus {
+  color:#3daee9;
+  stop-color:#3daee9;
+}
+.ColorScheme-ButtonText {
+  color:#31363b;
+  stop-color:#31363b;
+}
+.ColorScheme-ButtonBackground {
+  color:#eff0f1;
+  stop-color:#eff0f1;
+}
+.ColorScheme-ButtonHover {
+  color:#93cee9;
+  stop-color:#93cee9;
+}
+.ColorScheme-ButtonFocus {
+  color:#3daee9;
+  stop-color:#3daee9;
+}
+]]></style>
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient23491"
@@ -186,6 +188,65 @@
        x2="34"
        y2="49.907688"
        gradientUnits="userSpaceOnUse" />
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Nudge RGB"
+       id="filter2696"
+       x="-0.55"
+       y="-2.791545"
+       width="1.725"
+       height="4.141545">
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood2676" />
+      <feColorMatrix
+         in="SourceGraphic"
+         values="0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 "
+         result="colormatrix1"
+         id="feColorMatrix2678" />
+      <feOffset
+         dy="-55.8309"
+         dx="-6"
+         result="offset1"
+         id="feOffset2680" />
+      <feBlend
+         in2="flood"
+         mode="screen"
+         result="blend1"
+         id="feBlend2682" />
+      <feColorMatrix
+         in="SourceGraphic"
+         values="0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 "
+         result="colormatrix2"
+         id="feColorMatrix2684" />
+      <feOffset
+         dy="6"
+         dx="7"
+         result="offset2"
+         id="feOffset2686" />
+      <feBlend
+         in2="blend1"
+         mode="screen"
+         result="blend2"
+         id="feBlend2688" />
+      <feOffset
+         dy="1"
+         dx="-16"
+         result="offset3"
+         id="feOffset2690" />
+      <feColorMatrix
+         in="SourceGraphic"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 "
+         result="colormatrix3"
+         id="feColorMatrix2692" />
+      <feBlend
+         in2="offset3"
+         mode="screen"
+         result="blend3"
+         id="feBlend2694" />
+    </filter>
   </defs>
   <g
      id="g25512"
